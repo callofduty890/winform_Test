@@ -34,9 +34,22 @@ namespace _9_28_常用控件
             }
             //爱好
             information += "您的爱好是: ";
+
+            for (int i = 1; i < 5; i++)
+            {
+                //查找获取控件
+                CheckBox check = (CheckBox)this.Controls.Find("checkBox" + i.ToString(), false).FirstOrDefault();
+                //判断当前控件是否被选中
+                if (check.Checked==true)
+                {
+                        information += "\t" + check.Text;//当选中时，添加内容
+                }
+                
+            }
+            /*
             if (this.checkBox1.Checked==true)
             {
-                information += this.checkBox1.Text ;
+                information += "\t" + this.checkBox1.Text ;
             }
             if (this.checkBox2.Checked == true)
             {
@@ -50,6 +63,7 @@ namespace _9_28_常用控件
             {
                 information += "\t" + this.checkBox4.Text ;
             }
+            */
             //在label标签上显示
             this.label5.Text = information;
         }
