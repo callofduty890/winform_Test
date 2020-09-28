@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_常用控件04", "02_常
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_常用控件05", "05_常用控件05\04_常用控件05.csproj", "{98C4AC23-E7A4-4044-BC3C-353020642608}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_常用控件06", "05_常用控件06\05_常用控件06.csproj", "{7924DF73-CEF2-434B-8D20-0860FD837875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{98C4AC23-E7A4-4044-BC3C-353020642608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98C4AC23-E7A4-4044-BC3C-353020642608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98C4AC23-E7A4-4044-BC3C-353020642608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7924DF73-CEF2-434B-8D20-0860FD837875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7924DF73-CEF2-434B-8D20-0860FD837875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7924DF73-CEF2-434B-8D20-0860FD837875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7924DF73-CEF2-434B-8D20-0860FD837875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
