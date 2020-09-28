@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB7C865A-A6C4-4642-AE28-4CFFB3ECF220}</ProjectGuid>
+    <ProjectGuid>{0F2F48E1-BFE4-47BC-80E3-23B0531A0B16}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_9_28_常用控件</RootNamespace>
-    <AssemblyName>9_28_常用控件</AssemblyName>
+    <RootNamespace>_01_常用控件02</RootNamespace>
+    <AssemblyName>01_常用控件02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
