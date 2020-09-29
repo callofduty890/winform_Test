@@ -81,5 +81,10 @@ namespace _06_常用控件07
                 richTextBox1.SelectionColor = fontDialog.Color;//设置颜色
             }
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.toolStripStatusLabel1.Text = DateTime.Now.ToString();
+        }
     }
 }
